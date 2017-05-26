@@ -23,7 +23,7 @@
               "try{",
               "   tests[\"Verify the thumbnail\"] = jsonData.tutorial.thumbnail.has(\"learningexchangetest.ptc.com/tutorials/images/original\"); ",
               "}",
-              "catch(Exception e){Exception e};",
+              "catch(Exception){Exception e};",
               "    ",
               "}",
               "tests[\"Verify the mosaic XML File\"] = jsonData.tutorial.mosaicXmlFile.has(\"hqlextstap01.ptc.com/data/packages\");",
