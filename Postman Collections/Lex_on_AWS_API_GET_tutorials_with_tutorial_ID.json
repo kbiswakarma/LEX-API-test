@@ -26,7 +26,7 @@
               "   tests[\"Verify the mosaic HTML File\"] = jsonData.tutorial.mosaicHtmlFile.has(\"hqlextstap01.ptc.com/data/packages\");",
               "}",
               "catch(err){",
-              "    console.log(\"missing JSON element or value\")",
+              "    console.log(\"missing JSON element or value\");",
               "}",
               ""
             ]
