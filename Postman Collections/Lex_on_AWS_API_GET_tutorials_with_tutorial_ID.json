@@ -20,7 +20,12 @@
               "",
               "var jsonData = JSON.parse(responseBody);",
               "",
-              "tests[\"Verify the thumbnail\"] = jsonData.tutorial.thumbnail.has(\"learningexchangetest.ptc.com/tutorials/images/original\");",
+              "try{",
+              "   tests[\"Verify the thumbnail\"] = jsonData.tutorial.thumbnail.has(\"learningexchangetest.ptc.com/tutorials/images/original\"); ",
+              "}",
+              "catch(Exception e){Exception e};",
+              "    ",
+              "}",
               "tests[\"Verify the mosaic XML File\"] = jsonData.tutorial.mosaicXmlFile.has(\"hqlextstap01.ptc.com/data/packages\");",
               "tests[\"Verify the mosaic HTML File\"] = jsonData.tutorial.mosaicHtmlFile.has(\"hqlextstap01.ptc.com/data/packages\");"
             ]
