@@ -19,8 +19,7 @@
               "tests[\"Status code is 200\"] = responseCode.code === 200;",
               "",
               "var jsonData = JSON.parse(responseBody);",
-              "console.log(\"Tutorial ID from response: \"+jsonData.tutorial.id+ \"  Tutorial from data file: \"+data.tutorialID);",
-              "tests[\"Verify the ID\"] = jsonData.tutorial.id === data.tutorialID;",
+              "",
               "tests[\"Verify the thumbnail\"] = jsonData.tutorial.thumbnail.has(\"learningexchangetest.ptc.com/tutorials/images/original\");",
               "tests[\"Verify the mosaic XML File\"] = jsonData.tutorial.mosaicXmlFile.has(\"hqlextstap01.ptc.com/data/packages\");",
               "tests[\"Verify the mosaic HTML File\"] = jsonData.tutorial.mosaicHtmlFile.has(\"hqlextstap01.ptc.com/data/packages\");"
