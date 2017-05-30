@@ -34,7 +34,7 @@
         }
       ],
       "request": {
-        "url": "https://learningexchangetest.ptc.com/api/tutorial/{{tutorialID}}",
+        "url": "https://learningexchange-stage.ptc.com/api/tutorial/{{tutorialID}}",
         "method": "GET",
         "header": [],
         "body": {},
